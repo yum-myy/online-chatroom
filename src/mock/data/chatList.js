@@ -1,0 +1,106 @@
+const Mock = require('mockjs')
+const Random = Mock.Random;
+
+const chatList = [
+    {
+        id:1,
+        type:'group',
+        img:Random.image('200x200','#ffcc33'),
+        title:'小黑的群组',
+        msg:'可爱多:[动画表情]',
+        time:'2/16'
+    },
+    {
+        id:2,
+        type:'group',
+        img:Random.image('200x200','#EFF1F3'),
+        title:'一只菜喵',
+        msg:'',
+        time:'1/15'
+    },
+    {
+        id:3,
+        type:'group',
+        img:Random.image('200x200','#F7DE1F'),
+        title:'孤独的狼',
+        msg:'',
+        time:'1/14'
+    },
+    {
+        id:4,
+        type:'group',
+        img:Random.image('200x200','#D09000'),
+        title:'桃子的聊天室',
+        msg:'',
+        time:'1/14'
+    },
+    {
+        id:5,
+        type:'group',
+        img:Random.image('200x200','#ffcc33'),
+        title:'小黑的群组',
+        msg:'可爱多:[动画表情]',
+        time:'2/16'
+    },
+    {
+        id:6,
+        type:'group',
+        img:Random.image('200x200','#EFF1F3'),
+        title:'一只菜喵',
+        msg:'',
+        time:'1/15'
+    },
+    {
+        id:7,
+        type:'group',
+        img:Random.image('200x200','#F7DE1F'),
+        title:'孤独的狼',
+        msg:'',
+        time:'1/14'
+    },
+    {
+        id:8,
+        type:'group',
+        img:Random.image('200x200','#D09000'),
+        title:'桃子的聊天室',
+        msg:'',
+        time:'1/14'
+    },
+    {
+        id:9,
+        type:'group',
+        img:Random.image('200x200','#ffcc33'),
+        title:'小黑的群组',
+        msg:'可爱多:[动画表情]',
+        time:'2/16'
+    },
+    {
+        id:10,
+        type:'group',
+        img:Random.image('200x200','#EFF1F3'),
+        title:'一只菜喵',
+        msg:'',
+        time:'1/15'
+    },
+    {
+        id:11,
+        type:'group',
+        img:Random.image('200x200','#F7DE1F'),
+        title:'孤独的狼',
+        msg:'',
+        time:'1/14'
+    },
+    {
+        id:12,
+        type:'group',
+        img:Random.image('200x200','#D09000'),
+        title:'桃子的聊天室',
+        msg:'',
+        time:'1/14'
+    }
+]
+
+
+module.exports = {
+    chatList
+}

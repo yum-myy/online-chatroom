@@ -1,0 +1,12 @@
+.list-container{
+    background-color: #5BA294;
+    width: 36%;
+}
+.list-container .head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding: 10px;
+    box-sizing: border-box;
+}

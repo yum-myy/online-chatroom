@@ -1,0 +1,16 @@
+.create-new-btn{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    background-color: #B5CDC6;
+    border-radius: 50%;
+}
+.create-new-btn:hover{
+    background-color: #F1F5F4;
+}
+.create-new-btn .icon-tianjia{
+    font-size: 30px;
+    color: #6B9B8D;
+}

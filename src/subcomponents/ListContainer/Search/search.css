@@ -1,0 +1,30 @@
+.search{
+    display: flex;
+    align-items:center;
+    width: 82%;
+    height: 36px;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 14px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    background-color: #B5CDC6;
+}
+.search input{
+    width: 85%;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    background-color: #B5CDC6;
+}
+.search .icon-sousuo1x{
+    font-size: 22px;
+    color: #8F7969;
+}
+.search .icon-guanbi2{
+    font-size: 18px;
+    color: #A5B5C0;
+}
+.search .icon-guanbi2:hover{
+    color: #6B9B8D;
+}

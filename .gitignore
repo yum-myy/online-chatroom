@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+#上传的时候不会上传/node_modules文件夹的意思
 /node_modules
 /.pnp
 .pnp.js
