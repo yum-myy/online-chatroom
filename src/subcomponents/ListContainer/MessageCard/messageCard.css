@@ -1,0 +1,49 @@
+.selectedBgc{
+  background-color: rgba(5,159,149, 0.4);;
+}
+.message-card{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #B5E3E0;
+}
+
+.message-card img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.message-card .message-right{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.message-card .message-preview{
+  padding-left: 10px;
+}
+
+.message-card .message-preview .title{
+  font-size: 14px;
+  color: white;
+}
+
+.message-card .message-preview .text{
+  padding-top: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical; 
+  -webkit-line-clamp:1;
+}
+
+.message-card .message-preview .empty{
+  display: block;
+  width: 100%;
+  height: 29px;
+}

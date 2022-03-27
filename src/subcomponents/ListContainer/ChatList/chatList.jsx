@@ -1,9 +1,25 @@
 
 import { useEffect, useState } from 'react'
 import './chatList.css'
+import MessageCard from '../MessageCard/messageCard'
 
-function ChatList(){
+const chatListStyle = {
+    overflow: 'hidden',
+    minHeight: '450px',
+    maxHeight: '450px',
+    overflowY: 'scroll'
+  }
+
+function findData(chatList,selectedId) {
+  const result = chatList.filter(item => item.id===selectedId);
+  return result[0] || {}
+}
+
+function ChatList(props){
     const [chatList,setChatList] = useState(null)
+    const [selectedId, setselectedId] = useState(-1)
+    const { setData } = props;
+  
 
     useEffect(()=>{
         fetch('http://localhost:3103/api/chatList',{
@@ -20,20 +36,18 @@ function ChatList(){
         })
     },[])
 
+    const changeSelectedData = (id) =>{
+      setselectedId(id)
+      const selectedData = findData(chatList,id)
+      setData(selectedData)
+    }
+   
     return(
-        <div className="chat-list">
+        <div className="chat-list" style={{...chatListStyle}} >
           <ul>
-            {
+            {//响应式高度怎么办？
               chatList ? chatList.map((ele) => {
-                  return (
-                  <li key={ele.id}>
-                    <img src={ele.img} alt="" />
-                    <div>
-                      <p>{ele.title}</p>
-                      <p>{ele.msg}</p>
-                    </div>
-                    <p>{ele.time}</p>
-                  </li>)
+                  return <MessageCard item={ele} key={ele.id} selectedId={ selectedId } setselectedId={ changeSelectedData }/>
               }) : null
             }
           </ul>

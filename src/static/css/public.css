@@ -15,6 +15,7 @@
     width: 70%;
     height: 90%;
     min-width: 800px;
+    min-height: 400px;
     background-color: #2B9E93;
     border-radius: 20px;
     overflow: hidden;

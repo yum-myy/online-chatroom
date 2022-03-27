@@ -1,0 +1,62 @@
+.other{
+  font-size: 14px;
+  position: relative;
+  padding:20px 0 10px 70px;
+  padding-right: 20%;
+}
+.other img.image{
+  position: absolute;
+  left: 12px;
+  width: 45px;
+  height: 45px;
+}
+.other p,.self p{
+  display: block;
+  /* css3的fit-content，让盒子自适应文字的宽度 */
+  width:fit-content;
+  width:-webkit-fit-content;
+  width:-moz-fit-content;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.other p span,.self p span{
+  line-height: 21px;
+}
+.other .message img,.self .message img{
+  width: 140px;
+}
+.other div.pic,.self div.pic{
+  width:fit-content;
+  width:-webkit-fit-content;
+  width:-moz-fit-content;
+  background-color: #fff;
+  padding:5px 5px 1px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.self{
+  font-size: 14px;
+  position: relative;
+  padding:20px 70px 10px 80px;
+  padding-left: 20%;
+  overflow: hidden;
+}
+.self img.image{
+  position: absolute;
+  right: 12px;
+  width: 45px;
+  height: 45px;  
+}
+
+.self p,.self div.pic{
+  background-color:#fef155;
+  margin-top: 0px;
+  float: right;
+}
+.self div.pic{
+  overflow: hidden;
+}
+
