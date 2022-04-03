@@ -1,0 +1,68 @@
+.create-new-group{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  background-color: rgba(55, 55, 55, 0.6);
+}
+
+.create-new-group .create-new-container{
+  background-color: white;
+  width: 500px;
+  height: 208px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.create-new-group .create-new-container .create-new-title{
+  display: flex;
+  height: 48px;
+  padding: 0 14px 0 16px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  font-size: 16px;
+}
+
+.create-new-group .create-new-container .create-new-info{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-new-group .create-new-container .create-new-info input{
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 34px 0 8px;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.create-new-group .create-new-container .create-new-info input:focus{
+  border-color: #2AADA5;
+}
+
+.create-new-group .create-new-container .create-new-info button{
+  align-self: flex-end;
+  width: 66px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #2AADA5;
+  color: white;
+  align-self: flex-end;
+  font-size: 14px;
+  border: none;
+}
+
+.create-new-group .create-new-container .create-new-info button:hover{
+  background-color: #059F95;
+}

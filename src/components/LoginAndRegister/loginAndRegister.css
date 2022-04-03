@@ -1,0 +1,82 @@
+.login-and-register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #069F94;
+  width: 100%;
+  min-width: 500px;
+  height: 100vh;
+}
+
+.login-and-register .main-container{
+  width: 450px;
+  height: 341px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+}
+
+.login-and-register .main-container .tab{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #EAECED;
+}
+
+.login-and-register .main-container .tab p{
+  width: 72px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.login-and-register .main-container .tab p:hover{
+  color: #108EE9;
+}
+
+.login-and-register .main-container .tab p:first-child{
+  margin-right: 20px;
+}
+
+.login{
+  padding: 0 26px;
+}
+
+.login p{
+  line-height: 27px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login input{
+  line-height: 40px;
+  width: 100%;
+  height:40px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 34px 0 8px;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login input:focus{
+  border-color: #069F94;
+}
+
+.login .lg-rg-btn{
+  width: 100%;
+  background-color: #059F95;
+  color: #FFFFFF;
+  font-size: 14px;
+  height: 40px;
+  border: none;
+  margin-top: 30px;
+  transition: background-color 0.2s;
+  border-radius: 6px;
+}

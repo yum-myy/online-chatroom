@@ -1,0 +1,38 @@
+.user-group-list{
+  margin-left: 10px;
+  min-height: 495px;
+  max-height: 495px;
+  overflow-y: scroll;
+}
+
+.user-group-list::-webkit-scrollbar{
+  display: none;
+}
+
+.user-group-list img{
+  width: 45px;
+  border-radius: 2px;
+}
+
+.collapsible-list .list-tab{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  color: white;
+}
+
+
+.font22Px{
+  font-size: 30px;
+}
+
+.collapse-item{
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.collapse-item p{
+  margin-left: 10px;
+  color: white;
+}

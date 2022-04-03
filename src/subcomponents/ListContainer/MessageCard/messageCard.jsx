@@ -2,11 +2,11 @@ import './messageCard.css'
 
 //待添加 消息预览显示字数限制
 function MessageCard(props){
-  const {item, selectedId, setselectedId}  = props;
+  const {item, selectedId, setselectedId, setRoomShow}  = props;
 
   return (
     <>
-      <li className={`message-card ${selectedId===item.id ? 'selectedBgc' : 'abc'}`} onClick={() =>{ setselectedId(item.id) }} >
+      <li className={`message-card ${selectedId===item.id ? 'selectedBgc' : 'abc'}`} onClick={() =>{ setselectedId(item.id);setRoomShow(1) }} >
         <img src={item.img} alt="" />
         <div className="message-right">
           <div className="message-preview">

@@ -11,12 +11,16 @@
 
 .message-input .icons{
   padding-left: 10px;
+  margin: 0 10px;
 }
 
 .message-input .icons,.icon-fasong{
   font-size: 30px;
   color: #AAAAB9;
-  margin: 0 10px;
+}
+
+.icon-fasong{
+  margin: 0 20px 0 10px;
 }
 
 .message-input .icon-fenlei1{
@@ -39,4 +43,41 @@
 .message-input input:focus{
   outline: none;
   border: 1px solid #CCCCCC
+}
+
+
+
+.message-input .icons{
+  position: relative;
+  
+}
+
+.send-list{
+  width: 78px;
+  padding: 2px 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #666;
+  position: absolute;
+  bottom: 45px;
+  left: 46px;
+  background-color: white;
+  z-index: 10;
+}
+
+.send-list p:first-child{
+  padding: 10px;
+}
+
+.send-list p:nth-child(2){
+  padding: 0 10px 10px;
+}
+
+.send-list p:hover{
+  background-color: #EAF8FE;
+  cursor: pointer;
+}
+
+.v-hide{
+  display: none;
 }
